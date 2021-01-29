@@ -1,0 +1,221 @@
+html, body 
+{
+overflow: hidden;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#kartta 
+{
+position: absolute;
+height: 90%;
+width: 100%;
+background: #323232;
+}
+#sisalto 
+{
+position: relative;
+display: grid;
+grid-template-columns: 20% 60% 20%;
+background-color: #323232;
+box-sizing: border-box;
+height: 100%;
+width: 100%;
+}
+
+#paivitetty
+{
+position: absolute;
+font-size: 2vw;
+color: #c4c4c4;
+height: 10%;
+width: 100%;
+bottom: 0%;
+left: 0%;
+}
+
+#validiv1
+{
+width: 100%;
+position: absolute;
+background: #323232;
+}
+#validiv2
+{
+width: 100%;
+position: absolute;
+background: #323232;
+}
+#validiv3
+{
+width: 100%;
+position: absolute;
+background: #323232;
+}
+#validiv4
+{
+width: 100%;
+position: absolute;
+background: #323232;
+}
+#header
+{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background: #c4c4c4;
+}
+#valikko
+{
+    z-index: 1;
+    left: 0px;
+    position: relative;
+    height: 100%;
+    background: #C4C4C4;
+}
+#sisavalikko
+{
+top: 5%;
+left: 5%;
+position: absolute;
+height: 90%;
+width: 90%;
+background: #323232;
+}
+#sisavalikko2
+{
+top: 5%;
+right: 5%;
+position: absolute;
+height: 90%;
+width: 95%;
+background: #323232;
+
+}
+#valvii1
+{
+position: absolute;
+width: 77%;
+height: 17%;
+left: 10%;
+background: #c4c4c4;
+}
+#valvii2
+{
+position: absolute;
+width: 77%;
+height: 17%;
+left: 10%;
+background: #c4c4c4;
+}
+#valvii3
+{
+position: absolute;
+width: 77%;
+height: 17%;
+top: 65%;
+left: 10%;
+background: #c4c4c4;
+}
+
+#valvii11
+{
+position: absolute;
+width: 77%;
+height: 17%;
+left: 10%;
+background: #c4c4c4;
+}
+#valvii22
+{
+position: absolute;
+width: 77%;
+height: 17%;
+left: 10%;
+background: #c4c4c4;
+}
+#valvii33
+{
+position: absolute;
+width: 77%;
+height: 17%;
+top: 65%;
+left: 10%;
+background: #c4c4c4;
+}
+#syote
+{
+    position: absolute;
+    top: 5%;
+    background-color: #323232;
+    color: #c4c4c4;
+}
+
+#myText
+{
+position: relative;
+text-align: center; 
+margin: 0px; 
+border: 0px; 
+background: #323232; 
+height: 100%; 
+width: 100%;
+padding: 0px;
+font-size: 3vW;
+color: #c4c4c4;
+}
+#search
+{
+    z-index: 1;
+    position: absolute;
+    background-color: #c4c4c4;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+    }
+
+    .sidenav a {
+    padding: 12% 8px 8px 12%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+    color: #f1f1f1;
+                    }
+
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+
+    #sulku{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute; 
+    text-align: center;
+    color: #c4c4c4;
+    top: 0px; 
+    height: 10%; 
+    right: 0px;
+    }
